@@ -1,0 +1,8 @@
+#!/bin/sh /etc/rc.common
+
+START=90
+
+start()
+{
+	pinmux set i2c gpio
+}
