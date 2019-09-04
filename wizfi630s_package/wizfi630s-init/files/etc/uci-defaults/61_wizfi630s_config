@@ -42,6 +42,7 @@ uci set wireless.sta.disabled=1
 #daniel 181031 set eth LAN  interface
 #uci set network.lan.ifname=eth0.1
 #uci set network.lan.ipaddr=192.168.3.1
+uci set network.lan.force_link=1
 
 #daniel 181031 set wifi STA interface
 #uci set network.wifi=interface
